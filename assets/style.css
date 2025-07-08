@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: grid;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.menu-logo{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding-left: 5%;
+    gap: 20px; 
+}
+
+.menu {
+    width: 22px;
+    height: 20px;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.search-container {
+    justify-self: center;
+    position: relative;
+    width: 250px;
+    padding: 10px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; 
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
+}
+
+.hub{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 5%;
+    gap: 20px; 
+}
+
+.video{
+    cursor: pointer;
+}
+
+.bell{
+    cursor: pointer;
+}
+
+.foto {
+    width: 40px;  
+    height: 40px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    cursor: pointer;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 20px;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
