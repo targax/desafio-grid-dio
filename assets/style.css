@@ -11,6 +11,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #FFFFFF;
     justify-content: space-between;
+    height: 70px;
 }
 
 .menu-logo{
@@ -83,7 +84,7 @@ header{
 
 main {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: 20px;
 }
 
@@ -93,11 +94,38 @@ aside {
     grid-template-rows: 1fr 1fr 1fr;
     background-color: #f4f4f4;
     padding: 10px;
+    padding-top: 3%;
     border-left: 1px solid #ccc;
 }
 
 .content-youtube {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: 1fr;
 }
+
+.video-aside {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2%;
+}
+
+.video-info {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr;
+    padding-left: 20%;
+}
+
+.video-aside pre{
+    text-align: initial ;
+}
+
+.image-yt {
+    padding-top: 25%;
+}
+
+.imagem-video {
+    padding-left: 20%;
+}   
+
